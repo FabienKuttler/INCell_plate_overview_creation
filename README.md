@@ -1,5 +1,7 @@
 # INCell_plate_overview_creation
 This macros creates plate overviews from images acquired with an INCell Analyzer automated fluorescence microscope
+![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/goal_of_macro.png)
+The wells for which no images have been acquired will appear black
 
 ## When starting the macro, the first windows allows the selection of:
 ![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/OVERVIEW_plate_INCell.png)
@@ -8,7 +10,7 @@ This macros creates plate overviews from images acquired with an INCell Analyzer
 ### Overviews destination folder
 * where the created overviews will be saved
 ### Plate format
-* the format of multiwell plates to be created
+* the format of multiwell plates to be created (for full plate overviews)
 * Custom format allows to create a partial plate: the following window allows selection of first and last well of the plate overview
 ![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/partial_plate_overview.png)
 ### Number of FOV per well and FOV setup
