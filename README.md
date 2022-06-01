@@ -4,21 +4,18 @@ This macros creates plate overviews from images acquired with an INCell Analyzer
 ![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/goal_of_macro.png)
 
 
-## When starting the macro, the first windows allows the selection of:
+## At start of the macro, a first windows appears, allowing the initial settings:
 ![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/OVERVIEW_plate_INCell.png)
-### Image source folder
-* where the images, folders or subfolders to be processed are located
-### Overviews destination folder
-* where the created overviews will be saved
+
 ### Plate format
-* the format of multiwell plates to be created (for full plate overviews)
-* Custom format allows to create a partial plate: the following window allows selection of first and last well of the plate overview
+Custom format allows to create a partial plate: the following window allows selection of first and last well of the plate overview
 
 ![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/partial_plate_overview.png)
 ### Number of FOV per well and FOV setup
-* the layout, number and acquisition setup of FOV (field of view) acquired for each well
-* Custom format allows to set the number of rows and columns for FOV layout
+Custom format allows to set the number of rows and columns for FOV layout through the following window
 
 ![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/Custom_FOV_format.png) 
-### Image Resizing (pixels)
-* to set the 
+### Z stack Projection method
+If Z stacks have been acquired, an additional window allows the selection of projection method to be applied to each stack, between Max Intensity, Sum slices or Gaussian stack focuser
+
+![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/Z_proj_method.png)
