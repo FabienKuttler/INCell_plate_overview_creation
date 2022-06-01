@@ -19,3 +19,6 @@ Custom format allows to set the number of rows and columns for FOV layout throug
 If Z stacks have been acquired, an additional window allows the selection of projection method to be applied to each stack, between Max Intensity, Sum slices or Gaussian stack focuser
 
 ![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/Z_proj_method.png)
+## Settings for color overview generation:
+
+![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/color_overview.png)
