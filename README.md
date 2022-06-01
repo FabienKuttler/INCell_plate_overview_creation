@@ -7,7 +7,7 @@ This macros creates plate overviews from images acquired with an INCell Analyzer
 This is a small macro for Fiji. It can be copy/pasted into the plugins folders of the Fiji installation. It is then available in Fiji's Plugins menu.
 ## At start of the macro, a first windows appears, allowing the initial settings:
 ![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/OVERVIEW_plate_INCell.png)
-
+Remark: the case "Single Channel" has to be used when a single channel has been acquired, whatever the wavelength used.
 ### Plate format
 Custom format allows to create a partial plate: the following window allows selection of first and last well of the plate overview.
 
