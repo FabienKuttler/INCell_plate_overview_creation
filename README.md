@@ -22,3 +22,7 @@ If Z stacks have been acquired, an additional window allows the selection of pro
 ## Settings for color overview generation:
 
 ![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/color_overview.png)
+### Manual setting for Brightness & Contrast
+When manual setting is selected, the color windows are displayed to allow manual adjustment for the first plate.
+
+![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/manual_setting.png)
