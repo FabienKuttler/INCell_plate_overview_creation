@@ -14,5 +14,6 @@ This macros creates plate overviews from images acquired with an INCell Analyzer
 ### Number of FOV per well and FOV setup
 * the layout, number and acquisition setup of FOV (field of view) acquired for each well
 * Custom format allows to set the number of rows and columns for FOV layouts
+![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/Custom_FOV_format.png) 
 ### Image Resizing (pixels)
 * to set the 
