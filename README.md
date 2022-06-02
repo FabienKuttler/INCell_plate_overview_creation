@@ -1,5 +1,5 @@
 # INCell_plate_overview_creation
-This macros creates plate overviews from images acquired with an INCell Analyzer automated fluorescence microscope. The wells for which no images have been acquired will appear black. Colors can be chosen, grids and well name can be added. It can be applied to single plates or multiple plates (1 subfolder per plate). The source images are not modified in any way.
+This macros creates plate overviews from images acquired with an INCell Analyzer automated fluorescence microscope. The purpose is to help visualization and navigation at the whole plate level. The wells for which no images have been acquired will appear black. Colors can be chosen, grids and well name can be added. It can be applied to single plates or multiple plates (1 subfolder per plate). The source images are not modified in any way.
 
 ![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/goal_of_macro.png)
 
