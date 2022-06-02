@@ -27,3 +27,5 @@ If Z stacks have been acquired, an additional window allows the selection of pro
 When manual setting is selected, the color windows are displayed to allow manual adjustment for the first plate. The same Min&Max settings are then applied to the following plates if multiple plates in multiple subfolders have been acquired.
 
 ![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/manual_setting.png)
+In addition to the overviews, a file "Pixel_Size.txt" is also saved in the destination folder. 
+It indicates the corrected pixel size of the overviews, to be used in case a scale bar has to be added...
