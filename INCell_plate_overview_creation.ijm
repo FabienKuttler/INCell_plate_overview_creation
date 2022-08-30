@@ -384,8 +384,8 @@ for (u=0; u<listOfChannel.length; u++) {
 	name = listOfChannelNoSpace[u];
 	zNameCurrent = zNameList[u];
 	//channel = listOfName[u];
-if (!wvName && zNameCurrent && fldName) {channel = " ";}
-else {channel = listOfName[u];}
+	if (!wvName && zNameCurrent && fldName) {channel = " ";}
+	else {channel = listOfName[u];}
 	nbSlices = zSliceList[u];	
 	if(zNameCurrent) {runChannelZ();}
 	else	   {runChannelNoZ();}
