@@ -382,9 +382,10 @@ if(zName){
 print("images opening and montage");
 for (u=0; u<listOfChannel.length; u++) {
 	name = listOfChannelNoSpace[u];
-	//name = listOfChannel[u];
-	channel = listOfName[u];
 	zNameCurrent = zNameList[u];
+	//channel = listOfName[u];
+if (!wvName && zNameCurrent && fldName) {channel = " ";}
+else {channel = listOfName[u];}
 	nbSlices = zSliceList[u];	
 	if(zNameCurrent) {runChannelZ();}
 	else	   {runChannelNoZ();}
