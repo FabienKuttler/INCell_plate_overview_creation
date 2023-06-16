@@ -17,7 +17,7 @@ Information from source folder is then extracted (plate format, fov, size...) an
 When selecting the plate format "Custom, from well X to well Y"
 ![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/partial_plate_overview.png)
 ## Number of FOV per well and FOV setup
-Custom format allows to set the number of rows and columns for FOV layout through the following window.
+Custom format allows setting the number of rows and columns for FOV layout through the following window.
 
 ![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/Custom_FOV_format.png) 
 ## Z stack Projection method
@@ -31,5 +31,5 @@ The list of channels found in source folders is automatically displayed
 When manual setting is selected, the color windows are displayed to allow manual adjustment for the first plate. The same Min&Max settings are then applied to the following plates if multiple plates in multiple subfolders have been acquired.
 
 ![Image](https://github.com/FabienKuttler/INCell_plate_overview_creation/blob/main/Images/manual_setting.png)
-In addition to the overviews, a file "Pixel_Size.txt" is also saved in the destination folder. 
-It indicates the corrected pixel size of the overviews, to be used in case a scale bar has to be added...
+In addition to the overviews, a file "Pixel_Size_and_information.txt" is also saved in the destination folder. 
+It indicates some information about the processed folder, the colors assigned to each channel, the number of slices acquired for each channel, the projection method selected for the stacks, and the corrected pixel size of the overviews, to be used in case a scale bar has to be added...
