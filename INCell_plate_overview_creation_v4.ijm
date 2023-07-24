@@ -85,7 +85,7 @@ for (p=0; p<mainListFirstImage.length; p++) {
 if(matches(firstImage, ".*fld.*")){fldName = true;} else{fldName = false;}
 if(matches(firstImage, ".*wv.*")){wvName = true;} else{wvName = false;}
 if(matches(firstImage, "^[A-Z] - [0-9][0-9].*")){colTwoDigits = true;} else{colTwoDigits = false;}
-if(fldName && matches(firstImage, ".*fld [0-9][0-9] .*")){fldTwoDigits = true;} else{fldTwoDigits = false;}
+if(fldName && matches(firstImage, ".*fld [0-9][0-9].*")){fldTwoDigits = true;} else{fldTwoDigits = false;}
 
 // Create list of images from first plate************************************************************************************
 listOfImagesFromFirstPlate=newArray(0);
