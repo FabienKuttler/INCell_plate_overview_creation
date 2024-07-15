@@ -499,6 +499,7 @@ function runChannelNoZ(){
 						if(fldName){field = "fld " + fovall;} else{field = "";}
 						if(File.exists(subdir + j + " - " + icol + "(" + field + channel + ").tif")){
 							open(subdir + j + " - " + icol + "(" + field + channel + ").tif");
+							if (substractBackground){run("Subtract Background...", "rolling=" + rolling);}
 							run("Size...", "width=" + sizePixel + " height=" + sizePixel + " depth=1 constrain average interpolation=Bilinear");
 							CountOpenedImages++; continue;
 						}
@@ -558,6 +559,7 @@ function runChannelZ(){
 							if(fldName){field = "fld " + fovall;} else{field = "";}
 							if(File.exists(subdir + j + " - " + icol + "(" + field + channel + "z " + stack + ").tif")){ 
 								open(subdir + j + " - " + icol + "(" + field + channel + "z " + stack + ").tif");
+								if (substractBackground){run("Subtract Background...", "rolling=" + rolling);}
 								run("Size...", "width=" + sizePixel + " height=" + sizePixel + " depth=1 constrain average interpolation=Bilinear");
 								CountOpenedImages++; continue;
 							}
@@ -615,7 +617,6 @@ function rescale_with_coeff(coeff){
 	 		name = listOfChannelNoSpace[q];
 			open(saveFolder + "/overviews/" + barcode + "_" + name + ".tif");
 			rename(name);
-			if (substractBackground){run("Subtract Background...", "rolling=" + rolling);}
 			if  (colorSnapshot=="AUTO"){
 				getMinAndMax(min, max);
 				minc=min*coeff;
